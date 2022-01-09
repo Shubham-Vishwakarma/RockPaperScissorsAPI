@@ -2,9 +2,17 @@
 
 ## Vocera Software Hiring Challenge
 
-### How to run
-Run the JAR file
-* Download the jar file
+### Setup Database
+
+database.sql can be found in database folder
+
 ```
-java -jar jar/rockpaperscissors-6.4.0.jar
+mysql> use vocera_game;
+mysql> source database.sql;
+```
+
+### Run the JAR file
+Download the rockpaperscissors.jar file from jar folder
+```
+java -jar rockpaperscissors.jar
 ```
